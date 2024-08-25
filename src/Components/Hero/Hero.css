@@ -3,6 +3,7 @@
     align-items: center;
     flex-direction: column;
     gap: 30px;
+    margin: -100px;
 
 }
 .hero img {

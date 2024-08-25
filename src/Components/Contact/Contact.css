@@ -111,6 +111,19 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+.react-icon:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.reacts-icon:hover{
+    transform: scale(1.4);
+    transition: 0.3s;
+}
+.mail-react:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
 .contact-detail img{
     width: 15%;
 }
