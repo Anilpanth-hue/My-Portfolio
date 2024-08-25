@@ -12,7 +12,7 @@ const Services_Data = [
     {
         s_no:"03",
         s_name:"Software Testing",
-        s_desc:"Web development is the process of building, programming..."
+        s_desc:"Software Testing used to test apk files using Appium so..."
     },
 ]
  
