@@ -1,7 +1,5 @@
 # Fullstack Developer Portfolio
 
-![Portfolio Preview](./path-to-screenshot.png)
-
 Welcome to my Fullstack Developer Portfolio! This portfolio is a showcase of my skills, projects, and achievements as a full-stack software developer. It's designed to give visitors a seamless and visually engaging experience while exploring my work.
 
 ---
@@ -48,6 +46,7 @@ The portfolio features:
 ## ⚙️ Setup and Installation
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/Anilpanth-hue/My-3D-Portfolio.git
    Navigate to the project directory:
@@ -66,27 +65,33 @@ The portfolio features:
    📷 Preview
    ```
 
-💡 Future Improvements
-Add light/dark mode toggle.
-Optimize performance for mobile devices.
-Implement animations using Framer Motion.
-🙌 Connect With Me
-Feel free to reach out or connect with me on:
+2. Future Improvements
 
-LinkedIn
-Twitter
-GitHub
-💬 Feedback
-Your feedback is valuable! If you have suggestions or find bugs, please feel free to open an issue in this repository.
+   ```bash
+   Add light/dark mode toggle.
+   Optimize performance for mobile devices.
+   Implement animations using Framer Motion.
+   🙌 Connect With Me
+   Feel free to reach out or connect with me on:
 
-⭐ Acknowledgments
-Next.js
-Three.js
-Tailwind CSS
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+   [Linkdin](https://linkedin.com/in/anil-panth-b060a2256/)
+   [Twitter](https://x.com/AnilPanth6)
+   [Github](https://github.com/Anilpanth-hue/)
+   💬 Feedback
+   Your feedback is valuable! If you have suggestions or find bugs, please feel free to open an issue in this repository.
+   ```
 
-vbnet
-Copy code
+3. Acknowledgments
 
-Replace placeholders (like `apple-icon.png` and `Anilpanth-hue`) with your actual details. Let me know if you need further customization!
+   ```bash
+   Next.js
+   Three.js
+   Tailwind CSS
+   📄 License
+   This project is licensed under the MIT License - see the LICENSE file for details.
+
+   vbnet
+   Copy code
+
+   Replace placeholders (like `apple-icon.png` and `Anilpanth-hue`) with your actual details. Let me know if you need further customization!
+   ```
