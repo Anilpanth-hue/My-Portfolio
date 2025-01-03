@@ -1,5 +1,6 @@
 import { SkillDataProvider } from "@/components/sub/skill-data-provider";
 import { SkillText } from "@/components/sub/skill-text";
+import { SafeHydration } from "../safeHydration";
 
 import {
   BACKEND_SKILL,
@@ -11,6 +12,7 @@ import {
 
 export const Skills = () => {
   return (
+    <SafeHydration>
     <section
       id="skills"
       style={{ transform: "scale(0.9)" }}
@@ -95,5 +97,6 @@ export const Skills = () => {
         </div>
       </div>
     </section>
+    </SafeHydration>
   );
 };

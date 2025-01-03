@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { LINKS, NAV_LINKS, SOCIALS } from "@/constants";
+import ContactModal from "./contact-model";
 
 export const Navbar = () => {
   return (
@@ -14,14 +15,11 @@ export const Navbar = () => {
           <Image
             src="/logo.png"
             alt="Logo"
-            width={70}
-            height={70}
+            width={140}
+            height={80}
             draggable={false}
             className="cursor-pointer hover:animate-slowspin"
           />
-          <div className="font-bold ml-[10px] hidden md:block text-gray-300">
-            John Doe
-          </div>
         </Link>
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
@@ -36,15 +34,8 @@ export const Navbar = () => {
               </Link>
             ))}
 
-            {/* source code */}
-            <Link
-              href={LINKS.sourceCode}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
-            >
-              Source Code
-            </Link>
+            {/* Contact Me Modal */}
+            <ContactModal />
           </div>
         </div>
 
@@ -61,6 +52,6 @@ export const Navbar = () => {
           ))}
         </div>
       </div>
-    </div>
-  );
+    </div>
+  );
 };

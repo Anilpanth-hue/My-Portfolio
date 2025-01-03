@@ -1,3 +1,5 @@
+import { time } from "console";
+import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube, FaFacebook } from "react-icons/fa";
 import {
   RxDiscordLogo,
@@ -44,12 +46,13 @@ export const SKILL_DATA = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
+  
+  // {
+  //   skill_name: "React Query",
+  //   image: "reactquery.png",
+  //   width: 80,
+  //   height: 80,
+  // },
   {
     skill_name: "TypeScript",
     image: "ts.png",
@@ -62,21 +65,27 @@ export const SKILL_DATA = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
-    width: 80,
-    height: 80,
-  },
+  // {
+  //   skill_name: "Framer Motion",
+  //   image: "framer.png",
+  //   width: 80,
+  //   height: 80,
+  // },
+  // {
+  //   skill_name: "Stripe",
+  //   image: "stripe.png",
+  //   width: 80,
+  //   height: 80,
+  // },
   {
     skill_name: "Node.js",
     image: "node.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Express.js",
+    image: "express.png",
     width: 80,
     height: 80,
   },
@@ -92,17 +101,17 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/anil.panth.54/profilecard/?igsh=MWE5eDJhdDAzajEwYg==",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://www.facebook.com/share/15RqcQEzuV/",
   },
   {
     name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    icon: FaXTwitter,
+    link: "https://x.com/AnilPanth6",
   },
 ] as const;
 
@@ -131,12 +140,12 @@ export const FRONTEND_SKILL = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
+  // {
+  //   skill_name: "Material UI",
+  //   image: "mui.png",
+  //   width: 80,
+  //   height: 80,
+  // },
   {
     skill_name: "React",
     image: "react.png",
@@ -195,10 +204,10 @@ export const BACKEND_SKILL = [
     height: 55,
   },
   {
-    skill_name: "PostgreSQL",
-    image: "postgresql.png",
-    width: 70,
-    height: 70,
+    skill_name: "sql",
+    image: "sql.png",
+    width: 80,
+    height: 80,
   },
   {
     skill_name: "MySQL",
@@ -206,12 +215,12 @@ export const BACKEND_SKILL = [
     width: 70,
     height: 70,
   },
-  {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
+  // {
+  //   skill_name: "Prisma",
+  //   image: "prisma.png",
+  //   width: 70,
+  //   height: 70,
+  // },
   {
     skill_name: "Graphql",
     image: "graphql.png",
@@ -227,19 +236,30 @@ export const FULLSTACK_SKILL = [
     width: 70,
     height: 70,
   },
+  // {
+  //   skill_name: "Tauri",
+  //   image: "tauri.png",
+  //   width: 70,
+  //   height: 70,
+  // },
+  // {
+  //   skill_name: "Docker",
+  //   image: "docker.png",
+  //   width: 70,
+  //   height: 70,
+  // },
   {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
+    skill_name: "Supabase",
+    image: "supabase.jpg",
+    width: 68,
+    height: 60,
   },
   {
-    skill_name: "Docker",
-    image: "docker.png",
-    width: 70,
-    height: 70,
+    skill_name: "Clerk",
+    image: "clerk.png",
+    width: 68,
+    height: 65,
   },
-
   {
     skill_name: "Figma",
     image: "figma.png",
@@ -250,8 +270,8 @@ export const FULLSTACK_SKILL = [
 
 export const OTHER_SKILL = [
   {
-    skill_name: "Go",
-    image: "go.png",
+    skill_name: "c++",//c++
+    image: "c.svg",
     width: 60,
     height: 60,
   },
@@ -259,86 +279,89 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Quick-hire",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      'A web application where candidates can practice mock interviews, featuring dynamic question generation, audio recording and transcription of responses, and AI-driven feedback to enhance interview performance and confidence. Implemented WebRTC for real-time communication and AI APIs for speech-to-text conversion.',
+    image: "/projects/project-1.jpg",
+    techStack: ["React.js", "Node.js" ,"Express.js", "MongoDB", "WebRTC", "OpenAI APIs", "TailwindCSS"],
+    link: "https://github.com/Anilpanth-hue/Quick-Hire",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Job Portal",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+      'Developed a full-stack web application where candidates can explore and apply for jobs, while recruiters can post openings and manage applications. Integrated external APIs like Supabase for database management, Clerk for user authentication, and ShadCN for UI components, ensuring a seamless and efficient user experience.',
+    image: "/projects/project-2.jpg",
+    techStack: ["React.js", "Node.js", "Express.js" , "Supabase", "Clerk", "ShadCN", "Tailwind CSS"],
+    link: "https://github.com/Anilpanth-hue/Job-Portal",
   },
   {
-    title: "Space Themed Website",
+    title: "Portfolio Website",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      'Created a personal portfolio website to showcase projects, skills, and achievements. Built with responsive design principles to ensure accessibility across devices. Incorporated interactive elements to provide an engaging user experience.',
     image: "/projects/project-3.png",
-    link: "https://example.com",
-  },
-] as const;
+    techStack: ["React.js", "Next.js" , "Typescript", "Tailwind CSS", "Three.js"],
+    link: "https://github.com",
+  },
+] as const;
 
 export const FOOTER_DATA = [
   {
     title: "Community",
     data: [
-      {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
+      // {
+      //   name: "YouTube",
+      //   icon: FaYoutube,
+      //   link: "https://youtube.com",
+      // },
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/Anilpanth-hue",
       },
       {
         name: "Discord",
         icon: RxDiscordLogo,
-        link: "https://discord.com",
+        link: "https://discord.com/anil013409",
       },
     ],
   },
   {
     title: "Social Media",
     data: [
-      {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
+      // {
+      //   name: "Instagram",
+      //   icon: RxInstagramLogo,
+      //   link: "https://instagram.com",
+      // },
       {
         name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
+        icon: FaXTwitter,
+        link: "https://x.com/AnilPanth6",
       },
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://linkedin.com/in/anil-panth-b060a2256",
       },
     ],
   },
   {
     title: "About",
     data: [
-      {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
+      // {
+      //   name: "Become Sponsor",
+      //   icon: null,
+      //   link: "https://youtube.com",
+      // },
       {
         name: "Learning about me",
         icon: null,
-        link: "https://example.com",
+        link: "https://drive.google.com/file/d/1z9IKcbFP0ODBjcGYYSLTVAmI-N7jaGqV/view?usp=sharing",
       },
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "mailto:anilpanth44@gmail.com",
       },
     ],
   },
@@ -352,6 +375,9 @@ export const NAV_LINKS = [
   {
     title: "Skills",
     link: "#skills",
+  },{
+    title: "Algos",
+    link: "#encryption"
   },
   {
     title: "Projects",
@@ -360,5 +386,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com",
 };

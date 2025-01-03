@@ -1,0 +1,170 @@
+/* Skill Card */
+.skill-card {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Skill Icon */
+.skill-icon {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.skill-icon:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 0.75rem;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.1) 0%,
+    transparent 70%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.skill-card:hover .skill-icon:after {
+  opacity: 1;
+}
+
+/* Title */
+.skill-title {
+  position: relative;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.skill-title:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, white, transparent);
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.skill-card:hover .skill-title:after {
+  width: 100%;
+}
+
+/* Concepts Popup */
+.concepts-popup {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 8px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transform: translateY(5px);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.skill-card:hover .concepts-popup {
+  transform: translateY(0);
+}
+
+/* Platform Buttons Container */
+.platformContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/* Platform Button Base */
+.platformButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  min-width: 140px;
+  text-decoration: none;
+  backdrop-filter: blur(10px);
+}
+
+.platformButton:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+}
+
+.platformButton:hover:before {
+  transform: translateX(100%);
+}
+
+/* LeetCode Button */
+.leetcode {
+  background-color: rgba(26, 26, 26, 0.8);
+  color: #ffa116;
+  border: 2px solid #ffa116;
+  box-shadow: 0 0 10px rgba(255, 161, 22, 0.1);
+}
+
+.leetcode:hover {
+  background-color: #ffa116;
+  color: #1a1a1a;
+  box-shadow: 0 0 20px rgba(255, 161, 22, 0.3);
+  border-color: transparent;
+  transform: translateY(-2px);
+}
+
+/* GeeksforGeeks Button */
+.geeksforgeeks {
+  background-color: rgba(26, 26, 26, 0.8);
+  color: #2f8d46;
+  border: 2px solid #2f8d46;
+  box-shadow: 0 0 10px rgba(47, 141, 70, 0.1);
+}
+
+.geeksforgeeks:hover {
+  background-color: #2f8d46;
+  color: #1a1a1a;
+  box-shadow: 0 0 20px rgba(47, 141, 70, 0.3);
+  border-color: transparent;
+  transform: translateY(-2px);
+}
+
+/* CodeForces Button */
+.codeforces {
+  background-color: rgba(26, 26, 26, 0.8);
+  color: #318ce7;
+  border: 2px solid #318ce7;
+  box-shadow: 0 0 10px rgba(49, 140, 231, 0.1);
+}
+
+.codeforces:hover {
+  background-color: #318ce7;
+  color: #1a1a1a;
+  box-shadow: 0 0 20px rgba(49, 140, 231, 0.3);
+  border-color: transparent;
+  transform: translateY(-2px);
+}

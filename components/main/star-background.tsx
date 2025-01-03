@@ -6,7 +6,7 @@ import * as random from "maath/random";
 import { useState, useRef, Suspense } from "react";
 import type { Points as PointsType } from "three";
 
-export const StarBackground = (props: PointsProps) => {
+const StarBackground = (props: PointsProps) => {
   const ref = useRef<PointsType | null>(null);
   const [sphere] = useState(() =>
     random.inSphere(new Float32Array(5000), { radius: 1.2 })
@@ -40,7 +40,7 @@ export const StarBackground = (props: PointsProps) => {
   );
 };
 
-export const StarsCanvas = () => (
+const StarsCanvas = () => (
   <div className="w-full h-auto fixed inset-0 -z-10">
     <Canvas camera={{ position: [0, 0, 1] }}>
       <Suspense fallback={null}>
@@ -49,3 +49,9 @@ export const StarsCanvas = () => (
     </Canvas>
   </div>
 );
+
+// Export as default for dynamic import
+export default StarsCanvas;
+// Also export named for direct imports if needed
+export { StarsCanvas, StarBackground };
+

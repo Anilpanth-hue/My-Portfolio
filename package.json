@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Anil Panth",
+    "email": "anilpanth44@gmail.com",
+    "url": "https://github.com/Anilpanth-hue"
   },
   "description": "Welcome to my full stack Next.js 14 space portfolio.",
   "keywords": [
@@ -48,40 +48,53 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/space-portfolioit"
+    "url": "https://github.com/Anilpanth-hue"
   },
-  "homepage": "https://github.com/sanidhyy/space-portfolio#readme",
+  "homepage": "https://github.com/Anilpanth-hue/space-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/space-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/Anilpanth-hue/space-portfolio/issues",
+    "email": "anilpanth44@gmail.com"
   },
   "funding": [
     {
       "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
+      "url": "https://www.patreon.com/anilpanth44"
     },
     {
       "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
+      "url": "https://www.buymeacoffee.com/anilpanth44"
     }
   ],
   "dependencies": {
     "@heroicons/react": "^2.1.1",
+    "@radix-ui/react-dialog": "^1.1.4",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-toast": "^1.2.4",
     "@react-three/drei": "^9.93.0",
     "@react-three/fiber": "^8.15.13",
-    "clsx": "^2.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
+    "form-data": "^4.0.1",
     "framer-motion": "^10.17.12",
+    "lucide-react": "^0.469.0",
+    "mailgun.js": "^10.3.0",
     "next": "14.2.15",
-    "react": "^18",
+    "nodemailer": "^6.9.16",
+    "react": "^18.3.1",
+    "react-calendar-heatmap": "^1.9.0",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
     "react-intersection-observer": "^9.5.3",
-    "tailwind-merge": "^2.2.0",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
     "three": "^0.160.0"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "^18.3.18",
+    "@types/react-calendar-heatmap": "^1.9.0",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
@@ -89,5 +102,5 @@
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
-  }
+}
 }

@@ -1,7 +1,9 @@
 import { HeroContent } from "@/components/sub/hero-content";
+import { SafeHydration } from "@/components/safeHydration"
 
 export const Hero = () => {
   return (
+    <SafeHydration>
     <div className="relative flex flex-col h-full w-full">
       <video
         autoPlay
@@ -14,5 +16,6 @@ export const Hero = () => {
 
       <HeroContent />
     </div>
+    </SafeHydration>
   );
 };
