@@ -52,7 +52,7 @@ export const HeroContent = () => {
         <motion.a
   variants={slideInFromLeft(1)}
   className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-  href="https://drive.google.com/file/d/1nTtz3vA7h6CKOtvZU0RvxFp8YhA9Sqb3/view?usp=sharing"
+  href="https://drive.google.com/file/d/1uUFW08hsc4LoT22qzIY8ohnXYQxEhJ4F/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
 >
