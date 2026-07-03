@@ -1,4 +1,3 @@
-import { time } from "console";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube, FaFacebook } from "react-icons/fa";
 import {
@@ -287,20 +286,20 @@ export const PROJECTS = [
     link: "https://github.com/Anilpanth-hue/Quick-Hire",
   },
   {
-    title: "Job Portal",
+    title: "Tender Tracker",
     description:
-      'Developed a full-stack web application where candidates can explore and apply for jobs, while recruiters can post openings and manage applications. Integrated external APIs like Supabase for database management, Clerk for user authentication, and ShadCN for UI components, ensuring a seamless and efficient user experience.',
-    image: "/projects/project-2.jpg",
-    techStack: ["React.js", "Node.js", "Express.js" , "Supabase", "Clerk", "ShadCN", "Tailwind CSS"],
-    link: "https://github.com/Anilpanth-hue/Job-Portal",
+      'A full-stack platform that automatically scrapes government and corporate tender portals, stores listings in a MySQL database, and uses AI to summarize and analyze opportunities. Features scheduled cron-based scraping, secure authentication, and interactive dashboards with charts to help teams track and prioritize relevant tenders.',
+    image: "/projects/tender-tracker.png",
+    techStack: ["Next.js 15", "React 19", "TypeScript", "MySQL", "Puppeteer", "Google Genkit AI", "NextAuth", "Recharts", "Tailwind CSS"],
+    link: "https://tendersdev.glasswing.in/",
   },
   {
-    title: "Portfolio Website",
+    title: "CodeTrek",
     description:
-      'Created a personal portfolio website to showcase projects, skills, and achievements. Built with responsive design principles to ensure accessibility across devices. Incorporated interactive elements to provide an engaging user experience.',
-    image: "/projects/project-3.png",
-    techStack: ["React.js", "Next.js" , "Typescript", "Tailwind CSS", "Three.js"],
-    link: "https://github.com",
+      'A coding progress tracker that helps developers stay consistent with their DSA practice. Track problems solved, visualize daily streaks and activity, and monitor progress across topics to build a strong problem-solving habit over time.',
+    image: "/projects/CodeTrekk.png",
+    techStack: ["Next.js", "React.js", "TypeScript", "Tailwind CSS"],
+    link: "https://codetrek-rho.vercel.app/",
   },
 ] as const;
 

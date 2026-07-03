@@ -31,7 +31,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/logo.jpg" type="image/jpg" />
+        <link rel="icon" href="/logo.png" type="image/png" />
       </head>
       <body
         className={cn(

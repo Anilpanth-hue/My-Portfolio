@@ -20,7 +20,7 @@ export const HeroContent = () => {
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]]"
+          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
@@ -52,7 +52,7 @@ export const HeroContent = () => {
         <motion.a
   variants={slideInFromLeft(1)}
   className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-  href="https://drive.google.com/file/d/1uUFW08hsc4LoT22qzIY8ohnXYQxEhJ4F/view?usp=sharing"
+  href="https://drive.google.com/file/d/1dfRjsJwYEjcgd-cxE6aonMGeqRhWX7yr/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
 >

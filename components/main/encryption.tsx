@@ -46,7 +46,7 @@ export const Encryption = () => {
   }, []);
 
   return (
-    <div id="encryption" className="flex flex-col relative items-center justify-start min-h-screen w-full h-full -z-20 py-12">
+    <div id="encryption" className="flex flex-col relative items-center justify-start min-h-screen w-full h-full py-12">
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
@@ -190,7 +190,7 @@ export const Encryption = () => {
           muted
           autoPlay
           playsInline
-          preload="false"
+          preload="auto"
           className="w-full h-screen object-cover opacity-30"
         >
           <source src="/videos/encryption-bg.webm" type="video/webm" />

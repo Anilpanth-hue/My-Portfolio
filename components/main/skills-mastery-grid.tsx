@@ -106,7 +106,7 @@ export const SkillsMasteryGrid = () => {
             transition={{ duration: 0.3, delay: index * 0.1 }}
             className={styles['skill-card']}
           >
-            <div className="relative overflow-hidden rounded-2xl bg-black/40 backdrop-blur-sm border border-purple-500/10 hover:border-purple-500/30 transition-all duration-300 p-4">
+            <div className="group relative overflow-hidden rounded-2xl bg-black/40 backdrop-blur-sm border border-purple-500/10 hover:border-purple-500/30 transition-all duration-300 p-4">
               <div 
                 className="absolute inset-0 bg-gradient-to-br opacity-0 group-hover:opacity-10 transition-all duration-300 rounded-2xl" 
                 style={{ background: `linear-gradient(to bottom right, ${category.color})` }} 
